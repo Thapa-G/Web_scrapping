@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import os
 import pandas as pd
+
 dict={"Name":[],"Make":[],"Model":[],"Build_Date":[],"Odometer":[],"Body_type":[],"Fuel":[],"Transmission":[],"Seats":[],"Provider":[],"Location":[],"Vin":[],"Price":[]}    
 for file in os.listdir('html_data'):
     try:
